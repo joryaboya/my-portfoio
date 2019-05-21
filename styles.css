@@ -80,20 +80,24 @@ nav img{
     background-image: url("./about-backing.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
 }
 
 .about-bg p {
-    background-color: rgba(255,255,255,0.35);
+    background-color: rgba(255,255,255,0.55);
     font-family: 'Anaheim', sans-serif;
-    font-size: 1rem;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 15%;
-    margin-bottom: 20%;
-    padding: 20px;
-    text-align: center;
+    font-size: 1.1rem;
+    text-align: left center;
     position: relative;
+    width: 50%;
+    top: 20%;
     border-radius: 5px;
+    margin: auto;
+    padding: 1%;
     flex-wrap: wrap
     
 }
@@ -120,7 +124,7 @@ nav img{
 }
 
 .skills-grid-1 {
-    padding: 10%;
+    padding: 15%;
     margin: 10%;
     margin-bottom: 0;
     text-align: center;
@@ -128,21 +132,21 @@ nav img{
   
 }
 .skills-grid-2 {
-    padding: 10%;
+    padding: 15%;
     margin: 10%;
     margin-bottom: 0;
     text-align: center;
     background-color: rgba(255,255,255,0.3);
 }
 .skills-grid-3 {
-    padding: 10%;
+    padding: 15%;
     margin: 10%;
     margin-bottom: 0;
     text-align: center;
     background-color: rgba(255,255,255,0.3);
 }
 .skills-grid-4 {
-    padding: 10%;
+    padding: 15%;
     margin: 10%;
     margin-bottom: 0;
     text-align: center;
@@ -156,21 +160,21 @@ nav img{
     background-color: rgba(255,255,255,0.3);
 }
 .skills-grid-6 {
-    padding: 10%;
+    padding: 15%;
     margin: 10%;
     margin-bottom: 0;
     text-align: center;
     background-color: rgba(255,255,255,0.3);
 }
 .skills-grid-7 {
-    padding: 10%;
+    padding: 15%;
     margin: 10%;
     margin-bottom: 0;
     text-align: center;
     background-color: rgba(255,255,255,0.3);
 }
 .skills-grid-8 {
-    padding: 10%;
+    padding: 15%;
     margin: 10%;
     margin-bottom: 0;
     text-align: center;
