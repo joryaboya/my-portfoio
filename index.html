@@ -124,19 +124,26 @@
         </div>
         <div id = "4" class = "find-bg">
             <div class="contact-form">
-                <form name="contact" action="https://formspree.io/email@domain.tld" method="POST">
-                    <p>
-                        <label>Your Name: <input type="text" name="name" /></label>   
-                    </p>
-                    <p>
-                        <label>Your Email: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                        <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
-                    </p>
+                <form name="contact" action="https://formspree.io/email@domain.tld" method="POST"> 
+                    <div>
+                        <label for="fname">First Name</label> <br>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>     
+                    <div> 
+                        <label for="lname">Last Name</label> <br>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label> <br>
+                        <input type="text" id="email" name="e-mail" placeholder="Your email address..">
+                    </div>
+                    <div>
+                        <label>Write Your Message: <br> <br> <textarea name="message"></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
                 </form>
             </div>
         </div>
