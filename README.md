@@ -41,8 +41,13 @@ _Moodboard:_
 
 <img src="./screenshots/moodboard.png" alt="Moodboard" width="50%" height="auto">
 
-![alt text](./screenshots/moodboard.png "MOODBOARD" | width=120)
+_Original Wireframes:_
 
+<img src="./screenshots/home-prototype.png" alt="Home Prototype" width="50%" height="auto">
+<img src="./screenshots/about-prototype.png" alt="About Prototype" width="50%" height="auto">
+<img src="./screenshots/skills-prototype.png" alt="Skills Prototype" width="50%" height="auto">
+<img src="./screenshots/work-prototype.png" alt="Moodboard" width="50%" height="auto">
+<img src="./screenshots/find-prototype.png" alt="Moodboard" width="50%" height="auto">
 
 
 
