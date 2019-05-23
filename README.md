@@ -39,7 +39,7 @@ _Screenshots:_
 
 _Moodboard:_
 
-<img src="./screenshots/moodboard.png" alt="Moodboard" width="120" height="120">
+<img src="./screenshots/moodboard.png" alt="Moodboard" width="50%" height="auto">
 
 ![alt text](./screenshots/moodboard.png "MOODBOARD" | width=120)
 
