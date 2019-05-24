@@ -74,6 +74,7 @@ The site was developed with the intention of attracting those who might be poten
 * Have the content animations load when the in page link is clicked or upon scrolling 
 * Have a terminal emulator that would be able to run the Political Profiler app within the website further showcasing abilities
 * Have a method set up that would make the website less static in terms of updating content (ie being able to add skills and work easier)
+* Have a loading screen to allow page to completely load prior to view
 
 __________
 ## __Questions__ ##
