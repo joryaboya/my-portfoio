@@ -54,17 +54,25 @@ _Original Wireframes:_
 
 <img src="./docs/screenshots/nav-bar-prototypes.png" alt="Navbar Prototype" width="50%" height="auto">
 
+### iPhone X Background Images ###
+
+<img src="./docs/backgrounds-navbar/home-back-iphone.png" alt="Navbar Prototype" width="50%" height="50%">
+<img src="./docs/backgrounds-navbar/about-iphone.png" alt="Navbar Prototype" width="50%" height="50%">
+<img src="./docs/backgrounds-navbar/skills-iphone.png" alt="Navbar Prototype" width="50%" height="50%">
+<img src="./docs/backgrounds-navbar/work-iphone.png" alt="Navbar Prototype" width="50%" height="50%">
+<img src="./docs/backgrounds-navbar/find-iphone.png" alt="Navbar Prototype" width="50%" height="50%">
+
 ### Development ###
 
 The first few days of the process were spent gathering inspiration from other portfolio websites, designing moodboards, developing prototypes and wireframes. The title of the portfolio is "Lebensmüde" which directly translates from German to English as "tired-life". This is where most of the inspiration was drawn from. Once the design had a blueprint the coding began using HTML and CSS. 
 
 AdobeXD was used to design the prototypes and background images for each section. An online photo distortion service called Snorpey was used to create the glitchy effects seen on the background images. The images themselves were originals taken throughout Europe and Australia. 
 
-Initially it was difficult to apply a format that would allow the site to work before deciding that wrapping the website in a grid which had five sections would best display the content. This was because having each section filling the page allows the background images to heavily feature and be the focal points. 
+Initially it was difficult to apply a format that would allow the site to work before deciding that wrapping the website in a grid which had five sections would best display the content. This was because having each section filling the page allows the background images to heavily feature and be the focal points. A media query was generated for the iPhone X dimensions, where different backgrounds were used for the sections as the original background images did not fit a portrait screen.
 
 The basic font of monospace was used for the content because it doesnt detract from the other features in the website, namely the animation effects on the nav bar and content. The other font used in the titles and nav bar is called Fault, which adds to the glitchy, dystopic nature of the design. 
 
-The site was developed with the intention of attracting those who might be potential employers or those interested in coding generally. 
+The site was developed with the intention of attracting those who might be potential employers or those interested in coding generally.
 
 ### Trello Board ###
 <img src="./docs/screenshots/trello-board.png" alt="Trello Board">
