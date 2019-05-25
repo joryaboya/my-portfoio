@@ -20,39 +20,39 @@ This website was deployed using Netlify in conjunction with the GitHub repositor
 Some stretch goals would include being able to trigger the content animations on scroll or on link to the section which is easiest to deploy using Javascript. Reformatting of the work content section would be required upon completion of new projects, as would the skills content section as I learn more languages.
 
 _Sitemap:_ 
-![alt text](./screenshots/sitemap.png "SiteMap")
+![alt text](./docs/screenshots/sitemap.png "SiteMap")
 
 _Screenshots:_ 
 
-![alt text](./screenshots/home.png "HOME")
+![alt text](./docs/screenshots/home.png "HOME")
 
-![alt text](./screenshots/about.png "ABOUT")
+![alt text](./docs/screenshots/about.png "ABOUT")
 
-![alt text](./screenshots/skills.png "SKILLS")
+![alt text](./docs/screenshots/skills.png "SKILLS")
 
-![alt text](./screenshots/work.png "WORK")
+![alt text](./docs/screenshots/work.png "WORK")
 
-![alt text](./screenshots/find.png "FIND")
+![alt text](./docs/screenshots/find.png "FIND")
 
 ## __Design Process__ ##
 
 _Moodboard:_
 
-<img src="./screenshots/moodboard.png" alt="Moodboard" width="50%" height="auto">
+<img src="./docs/screenshots/moodboard.png" alt="Moodboard" width="50%" height="auto">
 
 _Original Wireframes:_
 
-<img src="./screenshots/home-protoype.png" alt="Home Prototype" width="50%" height="auto">
+<img src="./docs/screenshots/home-protoype.png" alt="Home Prototype" width="50%" height="auto">
 
-<img src="./screenshots/about-prototype.png" alt="About Prototype" width="50%" height="auto">
+<img src="./docs/screenshots/about-prototype.png" alt="About Prototype" width="50%" height="auto">
 
-<img src="./screenshots/skills-prototype.png" alt="Skills Prototype" width="50%" height="auto">
+<img src="./docs/screenshots/skills-prototype.png" alt="Skills Prototype" width="50%" height="auto">
 
-<img src="./screenshots/work-prototype.png" alt="Work Prototype" width="50%" height="auto">
+<img src="./docs/screenshots/work-prototype.png" alt="Work Prototype" width="50%" height="auto">
 
-<img src="./screenshots/find-prototype.png" alt="Find Prototype" width="50%" height="auto">
+<img src="./docs/screenshots/find-prototype.png" alt="Find Prototype" width="50%" height="auto">
 
-<img src="./screenshots/nav-bar-prototypes.png" alt="Navbar Prototype" width="50%" height="auto">
+<img src="./docs/screenshots/nav-bar-prototypes.png" alt="Navbar Prototype" width="50%" height="auto">
 
 ### Development ###
 
@@ -67,7 +67,7 @@ The basic font of monospace was used for the content because it doesnt detract f
 The site was developed with the intention of attracting those who might be potential employers or those interested in coding generally. 
 
 ### Trello Board ###
-<img src="./screenshots/trello-board.png" alt="Trello Board">
+<img src="./docs/screenshots/trello-board.png" alt="Trello Board">
 
 ### Stretch Goals ###
 

@@ -64,7 +64,7 @@ nav img{
 .home-bg {
     width: 100vw;
     height: 100vh;
-    background-image: url("./backgrounds-navbar/final-banner.png");
+    background-image: url("../docs/backgrounds-navbar/final-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,14 +80,14 @@ nav img{
 }
 
 .icon-wrap img {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 
 .about-bg {
     width: 100%;
     height: 100vh;
-    background-image: url("./backgrounds-navbar/about-backing.png");
+    background-image: url("../docs/backgrounds-navbar/about-backing.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -100,30 +100,29 @@ nav img{
 .about-bg p {
     
     font-family: monospace;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: white;
     text-align: left;
     position: relative;
-    top: 25%;
+    top: 22%;
     width: auto;
-    height: 68%;
+    height: 70%;
     flex-wrap: wrap;
     background-color: rgba(255,255,255,0.3);
     overflow: hidden;
     padding: 1%;
     text-shadow: 0 0 5px #C8C8C8;
     color: #fff;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    /* white-space: nowrap; Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .12em; /* Adjust as needed */
+    overflow: hidden; 
+    margin: 0 auto; 
+    letter-spacing: .12em; 
     animation: typing-about 5s steps(30, end), blink-caret .5s step-end infinite;
 }
 
 
 @keyframes typing-about {
     from { height: 0 }
-    to { height: 68% }
+    to { height: 70% }
   }
 
 @keyframes blink-caret {
@@ -135,7 +134,7 @@ nav img{
 .skills-bg {
     width: 100vw;
     height: 100vh;
-    background-image: url("./backgrounds-navbar/skills-backing.png");
+    background-image: url("../docs/backgrounds-navbar/skills-backing.png");
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: row;
@@ -165,9 +164,9 @@ nav img{
     text-shadow: 0 0 5px #C8C8C8;
     color: #fff;
     font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
     animation: typing-skills 5s steps(30, end), blink-caret .5s step-end infinite;
 }
 
@@ -190,7 +189,7 @@ nav img{
 .work-bg {
     width: 100vw;
     height: 100vh;
-    background-image: url("./backgrounds-navbar/work-backing.png");
+    background-image: url("../docs/backgrounds-navbar/work-backing.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -212,9 +211,9 @@ nav img{
     padding: 1%;
     text-shadow: 0 0 5px #C8C8C8;
     color: #fff;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .12em; /* Adjust as needed */
+    overflow: hidden;
+    margin: 0 auto;
+    letter-spacing: .12em; 
     animation: typing-work 5s steps(30, end), blink-caret .5s step-end infinite;
     border-radius: 5px;
 
@@ -238,7 +237,7 @@ nav img{
 .find-bg {
     width: 100vw;
     height: 100vh;
-    background-image: url("./backgrounds-navbar/find-backing.png");
+    background-image: url("../docs/backgrounds-navbar/find-backing.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -276,13 +275,13 @@ input[type=submit]:hover {
 
 .contact-form {
     width: auto;
-    height: 70%;
+    height: 80%;
     position: relative;
     text-align: center;
-    top: 20%;
+    top: 15%;
     font-family: monospace;
     background-color: rgba(255,255,255,0.35);
-    font-size: 1.1rem;
+    font-size: 1rem;
     overflow: hidden;
     padding: 1%;
     text-shadow: 0 0 5px #C8C8C8;
@@ -311,7 +310,7 @@ input[type=submit]:hover {
 
 @keyframes typing-find {
     from { height: 0 }
-        to { height: 70% }
+        to { height: 80% }
     }
 
 @keyframes blink-caret-find {
@@ -380,10 +379,10 @@ input[type=submit]:hover {
     }
 }
 
-@media screen and (max-width: 375px), screen and (max-height:812px) {
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) { 
     .home-bg {
         width: 100%;
-        background-image: url("./backgrounds-navbar/home-back-iphone.png");
+        background-image: url("../docs/backgrounds-navbar/home-back-iphone.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -409,7 +408,7 @@ input[type=submit]:hover {
 
     .about-bg {
         width: 100%;
-        background-image: url("./backgrounds-navbar/about-iphone.png");
+        background-image: url("../docs/backgrounds-navbar/about-iphone.png");
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -421,7 +420,7 @@ input[type=submit]:hover {
 
     .skills-bg {
         width: 100vw;
-        background-image: url("./backgrounds-navbar/skills-iphone.png");
+        background-image: url("../docs/backgrounds-navbar/skills-iphone.png");
         background-repeat: no-repeat;
         background-size: cover;
         flex-direction: row;
@@ -432,7 +431,7 @@ input[type=submit]:hover {
 
     .work-bg {
         width: 100vw;
-        background-image: url("./backgrounds-navbar/work-iphone.png");
+        background-image: url("../docs/backgrounds-navbar/work-iphone.png");
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -443,7 +442,7 @@ input[type=submit]:hover {
 
     .find-bg {
         width: 100vw;
-        background-image: url("./backgrounds-navbar/find-iphone.png");
+        background-image: url("../docs/backgrounds-navbar/find-iphone.png");
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -495,7 +494,13 @@ input[type=submit]:hover {
     
     .contact-form {
         width: 90%;
+        top: 17%;
+        height: 67%;
         font-size: 1rem;
     }
+    @keyframes typing-find {
+        from { height: 0 }
+            to { height: 67% }
+        }
     
 }
