@@ -278,14 +278,14 @@ input[type=submit]:hover {
     height: 80%;
     position: relative;
     text-align: center;
-    top: 15%;
+    top: 16%;
     font-family: monospace;
     background-color: rgba(255,255,255,0.35);
     font-size: 1rem;
     overflow: hidden;
     padding: 1%;
     text-shadow: 0 0 5px #C8C8C8;
-    color: #fff;
+    color: white;
     overflow: hidden;
     border-bottom: .15em solid orange; 
     white-space: nowrap; 
@@ -294,6 +294,10 @@ input[type=submit]:hover {
     animation: typing-find 5s steps(30, end), blink-caret-find .5s step-end infinite;
     border-radius: 5px;
 
+}
+
+.contact-form img:hover {
+    animation: glitch 0.5s linear infinite;
 }
 
 .contact-form textarea {
