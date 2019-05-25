@@ -15,6 +15,7 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
     font-family: monospace;
+    color: white;
 }
 
 h3 {
@@ -74,7 +75,7 @@ nav img{
     justify-content: space-around;
     position: absolute;
     bottom: 5%;
-    left: 50%;
+    left: 45%;
     list-style: none;
 }
 
@@ -103,9 +104,9 @@ nav img{
     color: white;
     text-align: left;
     position: relative;
-    top: 30%;
+    top: 25%;
     width: auto;
-    height: 55%;
+    height: 68%;
     flex-wrap: wrap;
     background-color: rgba(255,255,255,0.3);
     overflow: hidden;
@@ -122,7 +123,7 @@ nav img{
 
 @keyframes typing-about {
     from { height: 0 }
-    to { height: 55% }
+    to { height: 68% }
   }
 
 @keyframes blink-caret {
@@ -277,6 +278,7 @@ input[type=submit]:hover {
     width: auto;
     height: 70%;
     position: relative;
+    text-align: center;
     top: 20%;
     font-family: monospace;
     background-color: rgba(255,255,255,0.35);
@@ -378,3 +380,122 @@ input[type=submit]:hover {
     }
 }
 
+@media screen and (max-width: 375px), screen and (max-height:812px) {
+    .home-bg {
+        width: 100%;
+        background-image: url("./backgrounds-navbar/home-back-iphone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        top: 2px;
+        left: 13px;
+
+        width: auto;
+        height: auto;
+        list-style: none;
+    }
+    nav img{
+        width: 80%;
+        height: 80%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-bg {
+        width: 100%;
+        background-image: url("./backgrounds-navbar/about-iphone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    
+    }
+
+    .skills-bg {
+        width: 100vw;
+        background-image: url("./backgrounds-navbar/skills-iphone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    .work-bg {
+        width: 100vw;
+        background-image: url("./backgrounds-navbar/work-iphone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .find-bg {
+        width: 100vw;
+        background-image: url("./backgrounds-navbar/find-iphone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .about-bg p {
+        font-size: 0.65rem;
+        top: 21%;
+        width: 80%;
+        height: 60%
+    }
+    @keyframes typing-about {
+        from { height: 0 }
+        to { height: 60% }
+      }
+
+    .skills-grid {
+    grid-template-columns:  repeat(2, 160px);
+    grid-template-rows: repeat(4, 150px);
+    grid-template-areas:
+    "skills-grid-1 skills-grid-2" 
+    "skills-grid-3 skills-grid-4"
+    "skills-grid-5 skills-grid-6"
+    "skills-grid-7 skills-grid-8";
+    top: 15%;
+    width: 90%;
+    height: 75%;
+    }
+    
+    @keyframes typing-skills {
+        from { height: 0 }
+        to { height: 75% }
+    }
+
+    .work-container {
+        top: 19%;
+        width: 90%;
+        height: 63%;
+        text-align: center;
+        font-size: 0.65;
+    }
+    @keyframes typing-work {
+        from {height: 0}
+        to {height: 63%}
+    }
+    
+    .contact-form {
+        width: 90%;
+        font-size: 1rem;
+    }
+    
+}
